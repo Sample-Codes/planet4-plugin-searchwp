@@ -1,5 +1,5 @@
 {
-  "name": "greenpeace/search",
+  "name": "greenpeace/planet4-plugin-searchwp",
   "description": "This repository contains the 3rd party plugin that Planet 4 uses for search in compressed format.",
   "type": "wordpress-plugin",
   "version": "2.8.15",
