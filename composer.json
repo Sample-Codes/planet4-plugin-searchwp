@@ -1,7 +1,26 @@
 {
   "name": "greenpeace/planet4-plugin-searchwp",
   "description": "This repository contains the 3rd party plugin that Planet 4 uses for search in compressed format.",
-  "type": "wordpress-plugin",
   "version": "2.8.15",
-  "license": "GPL-2"
+  "license": "GPL-2",
+
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "greenpeace/planet4-plugin-searchwp-upstream",
+        "version": "2.8.15",
+        "type": "wordpress-plugin",
+        "url": "https://github.com/greenpeace/planet4-plugin-searchwp",
+        "dist": {
+          "url": "https://github.com/greenpeace/planet4-plugin-searchwp/archive/v2.8.15.zip",
+          "type": "zip"
+        }
+      }
+    }
+  ],
+
+  "require": {
+    "greenpeace/planet4-plugin-searchwp-upstream": "2.8.15"
+  }
 }
