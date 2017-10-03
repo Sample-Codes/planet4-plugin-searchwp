@@ -13,7 +13,7 @@
         "type": "wordpress-plugin",
         "url": "https://github.com/greenpeace/planet4-plugin-searchwp",
         "dist": {
-          "url": "https://github.com/greenpeace/planet4-plugin-searchwp/archive/v2.8.15.zip",
+          "url": "https://github.com/greenpeace/planet4-plugin-searchwp/blob/develop/searchwp.tar.gz",
           "type": "zip"
         }
       }
